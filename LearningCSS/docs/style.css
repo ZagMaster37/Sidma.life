@@ -1,0 +1,125 @@
+
+
+body{
+    font-family: "Roboto";
+    font-size: 32px;
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar{
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(71, 71, 71);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+.navbar a:active{
+    background-color: rgb(51, 51, 51);
+}
+
+.navbar li{
+    float: left;
+}
+
+.Heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.Heading img {
+    width: 1000px; /* Adjust the width of the image as needed */
+    margin-right: 20px; /* Add spacing between the image and the title */
+    overflow: hidden;
+}
+
+.Heading img:hover {
+    transform: rotate(360deg);
+    transition: transform 0.5s; /* Optionally add a transition effect for smooth animation */
+}
+
+
+#SidEvolution img{
+    float: right;
+    width: 400px;
+    position: static;
+
+
+}
+
+/* Style the accordion buttons */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 36px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: left;
+    
+  }
+  
+  /* Style the active button */
+  .accordion.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the panel that contains the content */
+  .panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 32px;
+    padding: 20px;
+  }
+  
+  /* Style the active panel */
+  .panel.active {
+    display: block;
+    background-color: rgb(242, 242, 242);
+  }
+
+.panel a{
+    text-decoration: none;
+    font-size: 32px;
+}
+
+  
+#Unblocked-Games a{
+    text-decoration: none;
+  }
+
+
+#TsarPoster{
+    float: right;
+    margin-left: 10px;
+}
