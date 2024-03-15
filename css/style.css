@@ -100,6 +100,7 @@ h1{
     overflow: hidden;
     font-size: 32px;
     padding: 20px;
+    padding-bottom: 0%;
   }
   
   /* Style the active panel */
@@ -112,6 +113,32 @@ h1{
     text-decoration: none;
     font-size: 32px;
 }
+
+
+  
+/* Style the panel that contains the content */
+.sidePanel {
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  font-size: 32px;
+  margin: 0px;
+
+
+}
+
+/* Style the active panel */
+.sidePanel.active {
+  display: block;
+  background-color: rgb(242, 242, 242);
+  padding: 24px;
+}
+
+.sidePanel a{
+  text-decoration: none;
+  font-size: 32px;
+}
+
 
   
 #Unblocked-Games a{
